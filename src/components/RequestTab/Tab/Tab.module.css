@@ -1,0 +1,25 @@
+.tab {
+  display: flex;
+  margin-top: 2px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 12px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.active {
+  background-color: var(--active-tab-background-color);
+}
+
+.tab:hover {
+  background-color: var(--on-hover-background-color);
+}
+
+.request-method {
+  margin-left: 4px;
+  margin-right: 2px;
+}
+
+.request-url {
+  margin-left: 4px;
+}

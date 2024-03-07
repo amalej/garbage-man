@@ -1,0 +1,32 @@
+.request-tab {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+  overflow: hidden;
+  border-right: 1px black solid;
+}
+
+.tab-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.add-button {
+  margin: 4px;
+  padding: 4px 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.add-button:hover {
+  background-color: var(--on-hover-background-color);
+}
+/* .button:hover {
+  background-color: rgb(186, 186, 186);
+} */
